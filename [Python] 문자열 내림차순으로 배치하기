@@ -1,0 +1,11 @@
+#solution01
+def solution(s):
+    answer = ''
+    for i in sorted(s, reverse = True):
+        answer += i
+    return answer
+    
+
+#solution02
+def solution(s):
+  return ''.join(sorted(s, reverse = True))
