@@ -1,0 +1,6 @@
+def solution(phone_number):
+    result = list(phone_number)
+    for i in range(len(result[0:-4])):
+        result[i] = '*'
+    answer = "".join(result)
+    return answer
